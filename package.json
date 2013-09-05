@@ -1,0 +1,16 @@
+{
+    "name": "sample-app",
+    "description": "sample app description",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "3.x"
+    },
+    "devDependencies": {
+    },
+    "author": ["Maciej Kowalski"],
+    "scripts": {
+        "start": "supervisor -w . server.js &"
+    }
+}
+
